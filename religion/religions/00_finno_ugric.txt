@@ -1,0 +1,296 @@
+﻿finno_ugric_religion = {
+	family = rf_pagan
+	graphical_faith = pagan_gfx
+
+	pagan_roots = yes
+
+	doctrine = pagan_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_cremation
+
+	#Coronation tradition
+	doctrine = doctrine_no_anointment
+
+	traits = {
+		virtues = { stubborn brave just }
+		sins = { fickle craven arbitrary }
+	}
+
+	custom_faith_icons = {
+		#Native American Icons
+		aztec_sun_stone_01 aztec_sun_stone_02 aztec_sun_stone_03 aztec_sun_stone_04 aztec_sun_stone_05
+
+		#African
+		akanism custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_boromian_circles mande west_african_bori west_african_roog_sene west_african waaqism yoruba melieism rrmeaism spidy
+
+		#Berbers and North Afirca
+		achamanism yaz_01 yaz_02 yaz_03 yaz_04 yaz_05 tanit tanit_01 tanit_02 tanit_03 tanit_eye_01 tanit_eye_02 tanit_eye_03 tanit_eye_04 tanit_eye_05 alt_tanit_01 alt_tanit_02 alt_tanit_03 alt_tanit_04 alt_tanit_05 tanit_with_eye_01 tanit_with_eye_02 tanit_with_eye_03 tanit_with_eye_04 tanit_with_eye_05 tanit_with_eye_alt_01 tanit_with_eye_alt_02 tanit_with_eye_alt_03 tanit_with_eye_alt_04 tanit_with_eye_alt_05 amazigh_eye_01 amazigh_eye_02 amazigh_eye_03 amazigh_eye_04 amazigh_eye_05 custom_faith_hamsa
+
+		#Christians
+		christian_syncretic_amazigh_01 christian_syncretic_amazigh_02 christian_syncretic_amazigh_03 christian_syncretic_amazigh_04 christian_syncretic_amazigh_05 alt_catholic catholic insular_celtic adamites conversos bosnian_church christianity_cathar christianity_cross christianity_cross_01 christianity_cross_02 christianity_cross_03 christianity_cross_04 christianity_cross_05 alt_christianity_cross_01 alt_christianity_cross_02 alt_christianity_cross_03 alt_christianity_cross_04 alt_christianity_cross_05 orthodox orthodox_recolor_01 orthodox_recolor_02 alt_orthodox budded_cross_01 budded_cross_02 budded_cross_03 budded_cross_04 budded_cross_05 budded_cross_alt_01 budded_cross_alt_02 budded_cross_alt_03 budded_cross_alt_04 budded_cross_alt_05 christianity_armenian coptic_cross armenian miaphysite coptic_recolor_01 coptic_recolor_02 cross_fleury_00 cross_fleury_01 cross_fleury_02 cross_fleury_03 cross_fleury_04 patriarchal_cross_01 patriarchal_cross_02 patriarchal_cross_03 patriarchal_cross_04 patriarchal_cross_05 saint_thomas_cross_01 saint_thomas_cross_02 saint_thomas_cross_03 saint_thomas_cross_04 saint_thomas_cross_05 simplified_orthodox_01 simplified_orthodox_02 simplified_orthodox_03 simplified_orthodox_04 simplified_orthodox_05 tau_cross fp2_adoptionist fp2_mozarabic victory_cross christianity_bogomilist christianity_custom_1 christianity_messalian christianity_iconoclasm christianity_lollard christianity_lollard_recolor christianity_lollard_recolor_02 christianity_paulicanism christianity_paulicanism_recolor_01 christianity_paulicanism_recolor_02 christianity_paulicanism_recolor_03 christianity_paulicanism_recolor_04 christianity_waldensian christianity_waldensia_recolor_01 christianity_waldensia_recolor_02 christianity_waldensia_recolor_03 christianity_waldensia_recolor_04 custom_faith_1 custom_faith_2 custom_faith_black_sheep custom_faith_chi_rho custom_faith_dove custom_faith_ichthys custom_faith_lamb nestorian nestorian_recolor christianity_bogomilist_recolor_01 christianity_bogomilist_recolor_02 christianity_bogomilist_recolor_03 christianity_bogomilist_recolor_04
+
+		#Caucasians
+		xabze_00 xabze_01 xabze_02 xabze_03 xabze_04 xabze_05 xabze_vines_00 xabze_vines_01 xabze_vines_02 xabze_vines_03 xabze_vines_04 xabze_vines_05 assianism hetanism kafir_funeral_totem_00 kafir_funeral_totem_01 kafir_funeral_totem_02 kafir_funeral_totem_03 kafir_funeral_totem_04 kafir_funeral_totem_05 vainakh_tower_00 vainakh_tower_01 vainakh_tower_02 vainakh_tower_03 vainakh_tower_04 vainakh_tower_05
+
+		#Egypt and ancients
+		custom_faith_ankh alt_ra_eye ankh_01 ankh_02 ankh_03 ankh_04 ankh_alt_01 ankh_alt_02 ankh_alt_03 ankh_alt_04 ankh_alt_05 ra_eye custom_faith_9 haldi_sun dacian_draco assur_god lamassu scythian_symbol_boar_01 scythian_symbol_boar_02 scythian_symbol_oitosyros_01 scythian_symbol_oitosyros_02 scythian_symbol_tabiti_01 scythian_symbol_tabiti_02 tetrasquel_01 tetrasquel_02 tetrasquel_03 tetrasquel_04 fp2_basque tartessos_astarte roseta_hexapetala hellenic hellenic_recolor_01 hellenic_recolor_02 hellenic_recolor_03 kushism
+
+		#Iranian
+		manichean afridunism cainitism gayomarthianism mazdakism zoroastrian zoroastrian_custom_1 zoroastrian_custom_2 zoroastrian_custom_3 zoroastrian_custom_4 zoroastrian_custom_5 atasdan_00 atasdan_01 atasdan_02 zurvanism zurvanism_recolor khurmazta urartuism urartuism_recolor khurramism kitebacilweism meshefaresism yazidi_custom_1 yazidism zunist
+
+		#Islamic
+		custom_faith_allah custom_faith_allah_recolor_01 custom_faith_allah_recolor_02 custom_faith_allah_recolor_03 custom_faith_4 azariqa mutazila muwalladi shia_custom sunni ashari sunni_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 masmudi maturidi alawite qarmatian quranist nizari zayidi shia alevi double_zulfiqar_01 double_zulfiqar_02 double_zulfiqar_03 double_zulfiqar_04 double_zulfiqar_05 double_zulfiqar_with_crescent_01 double_zulfiqar_with_crescent_02 double_zulfiqar_with_crescent_03 double_zulfiqar_with_crescent_04 double_zulfiqar_with_crescent_05 double_zulfiqar_with_crescent_alt_01 double_zulfiqar_with_crescent_alt_02 double_zulfiqar_with_crescent_alt_03 double_zulfiqar_with_crescent_alt_04 double_zulfiqar_with_crescent_alt_05 islam_crescent_01 islam_crescent_02 islam_crescent_03 islam_crescent_04 islam_crescent_05 islam_crescent_and_zulfiqar_01 islam_crescent_and_zulfiqar_02 islam_crescent_and_zulfiqar_03 islam_crescent_and_zulfiqar_04 islam_crescent_and_zulfiqar_05 islam_crescent_syncretic_amazigh_01 islam_crescent_syncretic_amazigh_02 islam_crescent_syncretic_amazigh_03 islam_crescent_syncretic_amazigh_04 islam_crescent_syncretic_amazigh_05 islam_crescent_with_star_01 islam_crescent_with_star_02 islam_crescent_with_star_03 islam_crescent_with_star_04 islam_crescent_with_star_05 islam_crescent stone_islam_crescent islam_crescent_with_zulfiqar_01 islam_crescent_with_zulfiqar_02 islam_crescent_with_zulfiqar_03 islam_crescent_with_zulfiqar_04 islam_crescent_with_zulfiqar_05 islam_crescent_with_zulfiqar_alt_01 islam_crescent_with_zulfiqar_alt_02 islam_crescent_with_zulfiqar_alt_03 islam_crescent_with_zulfiqar_alt_04 islam_crescent_with_zulfiqar_alt_05 islam_crescent_writted_01 islam_crescent_writted_02 islam_crescent_writted_03 islam_crescent_writted_04 islam_crescent_writted_05 mahdi_01 mahdi_02 mahdi_03 mahdi_04 mahdi_05 zulfiqar_01 zulfiqar_02 zulfiqar_03 zulfiqar_04 zulfiqar_05 custom_faith_fp1_runestone_moon ibadi ibadi_custom muhakkima nadjat muhakkima_1 muhakkima_2 muhakkima_3 muhakkima_4 sufri muhakkima_5 quranism muhakkima_6 imami druze_star islam_druze
+
+		#Jewish
+		custom_faith_burning_bush chai_01 chai_02 chai_03 chai_04 chai_05 david_star_00 david_star_01 david_star_02 david_star_03 david_star_04 david_star_alt_01 david_star_alt_02 david_star_alt_03 david_star_alt_04 david_star_alt_05 david_star_syncretic_amazigh_01 david_star_syncretic_amazigh_02 david_star_syncretic_amazigh_03 david_star_syncretic_amazigh_04 david_star_syncretic_amazigh_05 jewish_hamsa torah_scroll shofar_01 shofar_02 judaism judaism_custom judaism_custom_1 kabarism rabbinism karaism malabarism menorah_recolor_01 merkabah samaritan
+
+		#Dualism
+		dualism dualism_custom_1 dualism_recolor dualism_recolor_01 valentinianism priscillianism sabianism sethianism sedism
+
+		#Indian
+		yumaism svetambara yapaniya donyipoloism sanamahism_01 sanamahism_02 sanamahism_03 sanamahism_04 sanamahism_05 sanamahism_icon_01 sanamahism_icon_02 sanamahism_icon_03 sanamahism_icon_04 sanamahism_icon_05 advaitism hinduism hinduism_custom_1 hinduism_custom_2 hinduism_saura jainism jainism_custom_1 kalikula_shaktism krishnaism shaivism srikula_shaktism smartism
+
+		#Sikhism
+		sikhism_00 sikhism_01 sikhism_02 sikhism_03 sikhism_04 sikhism_05 sikhism_06 sikhism_07
+
+		#buddhism
+		golden_hand blue_hand green_hand red_hand silver_hand ari_buddhism exp_ari_buddhism buddhism buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 iamaism_buddhism lamaism_buddhism mahayana vajrayana
+
+		#Chinese
+		custom_faith_aum_tibetan custom_faith_gankyil kiratism spirit_bon bon custom_faith_10 custom_faith_lotus shui_character_01 shui_character_02 shui_character_03 shui_character_04 shui_character_05 bianzhong_01 bianzhong_02 bianzhong_03 bianzhong_04 bianzhong_05 bianzhong_alt_01 bianzhong_alt_02 bianzhong_alt_03 bianzhong_alt_04 bianzhong_alt_05 quanzhen shangqing taoism taoism_custom_1 taoism_recolor
+
+		#Japanese
+		ryukyu_icon_01 ryukyu_icon_02 ryukyu_icon_03 ryukyu_icon_04 ryukyu_icon_05
+
+		#Siberian and eastern europe
+		siberian bugaism_01 bugaism_02 bugaism_03 bugaism_04 bugaism_05 tengri_symbol tengri_symbol_01 tengri_symbol_02 tengri_symbol_03 tengri_symbol_04 tursaansydan_00 tursaansydan_01 tursaansydan_02 tursaansydan_03 tursaansydan_04 tursaansydan_05 hands_svarog_01 hands_svarog_02 hands_svarog_03 baltic baltic_recolor_01 baltic_recolor_02 baltic_recolor_03 baltic_recolor_04 finno_ugric finno_ugric_recolor_01 finno_ugric_recolor_02 finno_ugric_recolor_03 finno_ugric_recolor_04 slavic slavic_recolor_01 slavic_recolor_02 slavic_recolor_03 slavic_recolor_04 tengri tengri_recolor_01 tengri_recolor_02 tengri_recolor_03 tengri_recolor_04 hephthalite_tamga_00 hephthalite_tamga_01 hephthalite_tamga_02 hephthalite_tamga_03 hephthalite_tamga_04
+
+		#Pagan
+		pagan pagan_magyar pagan_magyar_recolor_01 pagan_magyar_recolor_02 pagan_magyar_recolor_03 pagan_magyar_recolor_04 custom_faith_3 triskelion triskelion_01 triskelion_02 triskelion_03 yggdrasil_1 yggdrasil_2 yggdrasil_3 yggdrasil_4 yggdrasil_5 yggdrasil_golden_knot_1 yggdrasil_golden_knot_2 yggdrasil_golden_knot_3 yggdrasil_golden_knot_4 yggdrasil_knot_1 yggdrasil_knot_2 yggdrasil_knot_3 yggdrasil_knot_4 yggdrasil_knot_5 yggdrasil_medal_1 yggdrasil_medal_2 yggdrasil_medal_3 yggdrasil_medal_4 custom_faith_fp1_yggdrasil trinity_knot custom_faith_8 custom_faith_fp1_fenrir custom_faith_fp1_fenrir_recolor custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_valknut custom_faith_fp1_thors_hammer germanic germanic_custom germanic_custom_blood ghulat gothic_pagan
+
+		#Misc
+		custom_faith_pentagram custom_faith_pentagram_inverted satanic_symbol custom_faith_cool_s faith_cool_s_recolor_01 custom_faith_eye_of_providence faith_eye_of_providence_recolor_01 faith_eye_of_providence_recolor_02 faith_eye_of_providence_recolor_03 faith_eye_of_providence_recolor_04
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_sons_of_kalevala" }
+		{ name = "holy_order_guardians_of_divinerealm" }
+		{ name = "holy_order_faithful_of_highgod" }
+		{ name = "holy_order_warriors_of_the_symbol" }
+	}
+
+	holy_order_maa = { metsanvartija }
+
+	localization = {
+		HighGodName = finno_ugric_high_god_name
+		HighGodName2 = finno_ugric_high_god_name_2
+		HighGodNamePossessive = finno_ugric_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = finno_ugric_high_god_name_alternate
+		HighGodNameAlternatePossessive = finno_ugric_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = finno_ugric_creator_god_name
+		CreatorNamePossessive = finno_ugric_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = finno_ugric_health_god_name
+		HealthGodNamePossessive = finno_ugric_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = finno_ugric_fertility_god_name
+		FertilityGodNamePossessive = finno_ugric_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = finno_ugric_wealth_god_name
+		WealthGodNamePossessive = finno_ugric_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = finno_ugric_household_god_name
+		HouseholdGodNamePossessive = finno_ugric_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = finno_ugric_fate_god_name
+		FateGodNamePossessive = finno_ugric_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = finno_ugric_knowledge_god_name
+		KnowledgeGodNamePossessive = finno_ugric_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = finno_ugric_war_god_name
+		WarGodNamePossessive = finno_ugric_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = finno_ugric_trickster_god_name
+		TricksterGodNamePossessive = finno_ugric_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_THEY
+		TricksterGodHerHis = CHARACTER_HERHIS_THEIR
+		TricksterGodHerHim = CHARACTER_HERHIM_THEM
+
+		#NightGod
+		NightGodName = finno_ugric_night_god_name
+		NightGodNamePossessive = finno_ugric_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = finno_ugric_water_god_name
+		WaterGodNamePossessive = finno_ugric_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+
+		PantheonTerm = religion_the_gods
+		PantheonTerm2 = religion_the_gods_2
+		PantheonTerm3 = religion_the_gods_3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { finno_ugric_good_god_akras finno_ugric_good_god_ilmarinen finno_ugric_good_god_lempo finno_ugric_good_god_paivatar paganism_good_god_ancestors }
+		DevilName = finno_ugric_devil_name
+		DevilNamePossessive = finno_ugric_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { finno_ugric_evil_god_nuolennoutaja finno_ugric_evil_god_painaja finno_ugric_evil_god_kielen_kantaja finno_ugric_evil_god_ohimoiden_ottaja finno_ugric_evil_god_sydamen_syoja }
+		HouseOfWorship = paganism_house_of_worship
+		HouseOfWorship2 = paganism_house_of_worship_2
+		HouseOfWorship3 = paganism_house_of_worship_3
+		HouseOfWorshipPlural = paganism_house_of_worship_plural
+		ReligiousSymbol = finno_ugric_religious_symbol
+		ReligiousSymbol2 = finno_ugric_religious_symbol_2
+		ReligiousSymbol3 = finno_ugric_religious_symbol_3
+		ReligiousText = finno_ugric_religious_text
+		ReligiousText2 = finno_ugric_religious_text_2
+		ReligiousText3 = finno_ugric_religious_text_3
+		ReligiousHeadName = paganism_religious_head_title
+		ReligiousHeadTitleName = paganism_religious_head_title_name
+		DevoteeMale = paganism_devotee
+		DevoteeMalePlural = paganism_devoteeplural
+		DevoteeFemale = paganism_devotee
+		DevoteeFemalePlural = paganism_devoteeplural
+		DevoteeNeuter = paganism_devotee
+		DevoteeNeuterPlural = paganism_devoteeplural
+		PriestMale = paganism_priest
+		PriestMalePlural = paganism_priest_plural
+		PriestFemale = paganism_priest
+		PriestFemalePlural = paganism_priest_plural
+		PriestNeuter = paganism_priest
+		PriestNeuterPlural = paganism_priest_plural
+		AltPriestTermPlural = paganism_priest_alternate_plural
+		BishopMale = paganism_priest
+		BishopMalePlural = paganism_priest_plural
+		BishopFemale = paganism_priest
+		BishopFemalePlural = paganism_priest_plural
+		BishopNeuter = paganism_priest
+		BishopNeuterPlural = paganism_priest_plural
+		DivineRealm = paganism_divine_realm
+		DivineRealm2 = paganism_divine_realm_2
+		DivineRealm3 = paganism_divine_realm_3
+		PositiveAfterLife = finno_ugric_afterlife
+		PositiveAfterLife2 = finno_ugric_afterlife_2
+		PositiveAfterLife3 = finno_ugric_afterlife_3
+		NegativeAfterLife = finno_ugric_afterlife
+		NegativeAfterLife2 = finno_ugric_afterlife_2
+		NegativeAfterLife3 = finno_ugric_afterlife_3
+		DeathDeityName = finno_ugric_death_deity_name
+		DeathDeityNamePossessive = finno_ugric_death_deity_name_possessive
+		DeathDeitySheHe = paganism_devil_shehe
+		DeathDeityHerHis = CHARACTER_HIMSELF
+		DeathDeityHerHim = CHARACTER_HERHIM_IT
+		WitchGodName = finno_ugric_witgodname_vainamoinen
+		WitchGodNamePossessive = finno_ugric_witgodname_vainamoinen_possessive
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}	
+
+	faiths = {
+		finnish_pagan = {
+			color = { 0.5 0.5 0.0 }
+
+			holy_site = raivola
+			holy_site = hiiumaa
+			holy_site = akkel
+			holy_site = perm
+			holy_site = torun
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_communal_identity
+
+			icon = finno_ugric
+			reformed_icon = finno_ugric_reformed
+		}
+		#finnish_reformed = {
+		#	color = { 0.65 0.65 0.1 }
+		#	icon = finno_ugric
+		#}
+	}
+}
